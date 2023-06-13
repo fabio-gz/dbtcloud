@@ -10,3 +10,4 @@
 SELECT id,
         signup_date
 FROM {{ref('signups')}}
+limit 10
