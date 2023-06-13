@@ -34,6 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   habi_test:
     # Applies to all files under models/example/
+    +database: prod-data-389717
     buyers:
       materialized: view
     sellers:
